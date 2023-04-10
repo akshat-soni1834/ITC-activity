@@ -9,6 +9,6 @@ if prime.lower()=='yes':
         print('Order cost after 8% discount of black friday is',asset-black_fri)
         print('total payable amount after all discount is',asset-discount_p-black_fri)
     else:
-        raise Typeerror('Enter a valid prime member id')
+        raise TypeError('Enter a valid prime member id')
 elif prime.lower()=='no':
     print('Order cost after 8% discount of black friday is',asset-black_fri)
