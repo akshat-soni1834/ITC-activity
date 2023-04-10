@@ -1,0 +1,17 @@
+class MedPlus:
+    def __init__(self, name:str, num:int, price: float):
+        if not isinstance(name, str):
+            raise Typeerror('Value does match the correct Datatype')
+        if not isinstance (num, int):
+            raise Typeerror('Value does match the correct Datatype')
+        if not isinstance(price, float):
+            raise Typeerror('Value does match the correct Datatype')       
+        self.name = str(name)
+        self.num = int(num)
+        self.price = float(price)
+    
+a=MedPlus('akshat',12,120.0)
+a.name
+a.num
+a.price
+print(f"{a.name},{a.num},{a.price}")
