@@ -1,0 +1,5 @@
+magnitude = float(input("Enter the magnitude of the earthquake: "))
+
+impact = 10**(1.5*magnitude - 5.75)
+
+print("The potential impact of the earthquake is", impact)
